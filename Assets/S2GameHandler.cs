@@ -47,17 +47,12 @@ public class S2GameHandler : MonoBehaviour
             Debug.Log("Attack Success!");
         }
         else{
-            VideoPlayerGO.gameObject.GetComponent<VideoPlayer>().clip = video;
-            VideoPlayerGO.gameObject.GetComponent<VideoPlayer>().Play();
             Debug.Log("Attack Missed!");
         }
     }
     //ATTACK SUCCESS
     public void p1Lowpunch(){
         attack(95, p1Lowpunchdelay(), VD6);
-    }
-     public void p1Lowpunchmissed(){
-        attack(95, p1Lowpunchdelay(), VD61);
     }
     public void p1Highpunch(){
         attack(75, p1Highpunchdelay(), VD7);
