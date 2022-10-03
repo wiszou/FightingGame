@@ -2467,6 +2467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -4033,8 +4034,8 @@ MonoBehaviour:
   P1Health: {fileID: 1558735898}
   P2Health: {fileID: 2013018905}
   VideoPlayerGO: {fileID: 840736211}
-  p2specialbttn: {fileID: 1188378289}
-  p1specialbttn: {fileID: 1756610776}
+  p1specialattk: {fileID: 1756610776}
+  p2specialattk: {fileID: 1188378289}
   player1HP: 100
   player2HP: 100
   VD1: {fileID: 32900000, guid: c68f52084437b9649a04afbada690fed, type: 3}
@@ -4043,6 +4044,7 @@ MonoBehaviour:
   VD4: {fileID: 32900000, guid: 92ba369dafe699b4b9610b7920222920, type: 3}
   VD5: {fileID: 32900000, guid: 601e99f80976a574da95dadd01f02d9c, type: 3}
   VD6: {fileID: 32900000, guid: 630895517358cb948a7f5322ba66cf00, type: 3}
+  VD61: {fileID: 32900000, guid: 3764a4fe5a68eab459da36206714aca7, type: 3}
   VD7: {fileID: 32900000, guid: 1daf5e223bff4e2418a6a238b43126c1, type: 3}
   VD8: {fileID: 32900000, guid: bd6c405873b55554eb289afa72d162c7, type: 3}
   VD9: {fileID: 32900000, guid: 512cf34cc9f64cc419c698ea34e9c244, type: 3}

@@ -47,13 +47,17 @@ public class S2GameHandler : MonoBehaviour
             Debug.Log("Attack Success!");
         }
         else{
-            
+            VideoPlayerGO.gameObject.GetComponent<VideoPlayer>().clip = video;
+            VideoPlayerGO.gameObject.GetComponent<VideoPlayer>().Play();
             Debug.Log("Attack Missed!");
         }
     }
-    
+    //ATTACK SUCCESS
     public void p1Lowpunch(){
         attack(95, p1Lowpunchdelay(), VD6);
+    }
+     public void p1Lowpunchmissed(){
+        attack(95, p1Lowpunchdelay(), VD61);
     }
     public void p1Highpunch(){
         attack(75, p1Highpunchdelay(), VD7);
@@ -125,4 +129,5 @@ public class S2GameHandler : MonoBehaviour
         yield return new WaitForSeconds(5F);
         dealDamage(15, player1HP);
     }
+
 }
