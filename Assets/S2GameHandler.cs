@@ -47,6 +47,7 @@ public class S2GameHandler : MonoBehaviour
             Debug.Log("Attack Success!");
         }
         else{
+            
             Debug.Log("Attack Missed!");
         }
     }
