@@ -8,10 +8,12 @@ using UnityEngine.SceneManagement;
 public class S2GameHandler : MonoBehaviour
 {
     public GameObject P1Health, P2Health, VideoPlayerGO;
+    public GameObject p1specialattk;
+    public GameObject p2specialattk;
     public int player1HP = 100;
     public int player2HP = 100;
     public VideoClip VD1, VD2, VD3, VD4, VD5, VD6, VD7, VD8, VD9, VD10;
-    
+   
     void Start()
     {
         
@@ -32,6 +34,7 @@ public class S2GameHandler : MonoBehaviour
            
             playerHP -= damage;
             player2HP = playerHP;
+            
     }
 
     void attack(float accuracy, IEnumerator attackname, VideoClip video){
@@ -62,6 +65,7 @@ public class S2GameHandler : MonoBehaviour
     }
     public void p1Special(){
         attack(95, p1Specialdelay(), VD10);
+        p1specialattk.SetActive(false);
     }
     IEnumerator p1Lowpunchdelay(){
         yield return new WaitForSeconds(2F);
@@ -97,6 +101,7 @@ public class S2GameHandler : MonoBehaviour
     }
     public void p2Special(){
         attack(95, p2Specialdelay(), VD5);
+        p2specialattk.SetActive(false);
     }
 
     IEnumerator p2Lowpunchdelay(){
@@ -120,4 +125,3 @@ public class S2GameHandler : MonoBehaviour
         dealDamage(15, player1HP);
     }
 }
-
