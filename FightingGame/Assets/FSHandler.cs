@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
-public class fightingHandler : MonoBehaviour
+public class FSHandler : MonoBehaviour
 {   
     public TextMeshProUGUI playerOneName;
     public TextMeshProUGUI playerTwoName;
@@ -54,10 +54,10 @@ public class fightingHandler : MonoBehaviour
 
     void Awake()
     {
-        playerOneName.text = variableHandler.vPasser.playerName1;
-        playerTwoName.text = variableHandler.vPasser.playerName2;
-        playerOneHP = variableHandler.vPasser.playerHealth;
-        playerTwoHP = variableHandler.vPasser.playerHealth;
+        playerOneName.text = VarHandler.vPasser.playerName1;
+        playerTwoName.text = VarHandler.vPasser.playerName2;
+        playerOneHP = VarHandler.vPasser.playerHealth;
+        playerTwoHP = VarHandler.vPasser.playerHealth;
     }
     // Start is called before the first frame update
     void Start()
@@ -98,7 +98,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         rawAttack.SetActive(true);
         StartCoroutine(delayProcess(1,75,1));
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
 
     public void playerOneHighPunch()
@@ -106,7 +106,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p1HighPunch;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(1,55,2));
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
 
     public void playerOneLowKick()
@@ -114,7 +114,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p1LowKick;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(1,65,3));
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
 
     public void playerOneHighKick()
@@ -122,7 +122,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p1HighKick;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(1,45,4));
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
 
     public void playerOneSpecial()
@@ -131,7 +131,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(1,90,5));
         specialOne.interactable = false;
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
     
     // PLAYER TWO BUTTON ATTACKS
@@ -141,7 +141,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p2LowPunch;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,75,1));
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
 
     public void playerTwoHighPunch()
@@ -149,7 +149,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p2HighPunch;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,55,2));
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
 
     public void playerTwoLowKick()
@@ -157,7 +157,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p2LowKick;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,65,3));
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
 
     public void playerTwoHighKick()
@@ -165,7 +165,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p2HighKick;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,45,4));
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
 
     public void playerTwoSpecial()
@@ -174,7 +174,7 @@ public class fightingHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,90,5));
         specialTwo.interactable = false;
-        Debug.Log("clack");
+        Debug.Log("Attack Success!");
     }
 
     public IEnumerator delayProcess(int playerNumber, int accuracy,int attackNumber)
@@ -193,7 +193,7 @@ public class fightingHandler : MonoBehaviour
                     rawAttack.SetActive(true);
                     yield return new WaitForSeconds(2);
                     dealDamage(1,playerTwoHP,3);
-                    Debug.Log("ting");
+                    Debug.Log("Attack Missed!");
                     break;
 
                     case 2:
@@ -236,7 +236,7 @@ public class fightingHandler : MonoBehaviour
                 switch (attackNumber)
                 {
                     case 1:
-                    Debug.Log("ting");
+                    Debug.Log("Attack Missed!");
                     attackSr.gameObject.GetComponent<VideoPlayer>().clip = mp1LowPunch;
                     attackSr.gameObject.GetComponent<VideoPlayer>().Play();
                     rawAttack.SetActive(true);
@@ -381,14 +381,14 @@ public class fightingHandler : MonoBehaviour
     {
         if (playerOneHP <= 0)
         {
-            variableHandler.vPasser.winner = 2;
+            VarHandler.vPasser.winner = 2;
             yield return new WaitForSeconds(3);
             SceneManager.LoadScene(2);
         }
 
         if (playerTwoHP <= 0)
         {
-            variableHandler.vPasser.winner = 1;
+            VarHandler.vPasser.winner = 1;
             yield return new WaitForSeconds(3);
             SceneManager.LoadScene(2);
         }

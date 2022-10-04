@@ -10,7 +10,7 @@ public class winnerHandler : MonoBehaviour
 
     void Awake()
     {
-        winnerNum = variableHandler.vPasser.winner;
+        winnerNum = VarHandler.vPasser.winner;
     }
     void Start()
     {
@@ -27,12 +27,12 @@ public class winnerHandler : MonoBehaviour
     {
         if (winnerNum == 1)
         {
-            winnerPlayer.text = variableHandler.vPasser.playerName1;
+            winnerPlayer.text = VarHandler.vPasser.playerName1;
         }
 
         else
         {
-            winnerPlayer.text = variableHandler.vPasser.playerName2;
+            winnerPlayer.text = VarHandler.vPasser.playerName2;
         }
     }
 }

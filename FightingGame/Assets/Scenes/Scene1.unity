@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 108663373}
   - component: {fileID: 108663372}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -291,12 +291,12 @@ RectTransform:
   m_Children:
   - {fileID: 546147246}
   m_Father: {fileID: 618868371}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -266}
-  m_SizeDelta: {x: 284.2014, y: 55.9525}
+  m_AnchoredPosition: {x: -0.000011444, y: -232}
+  m_SizeDelta: {x: 348.0941, y: 104.2616}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &108663372
 MonoBehaviour:
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 134211318}
   - component: {fileID: 134211317}
   m_Layer: 0
-  m_Name: bHandler
+  m_Name: ButHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 318368541}
   - component: {fileID: 318368540}
   m_Layer: 5
-  m_Name: HP caption
+  m_Name: Set Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -470,11 +470,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 618868371}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 433, y: 236.67}
+  m_AnchoredPosition: {x: 0, y: 265.74}
   m_SizeDelta: {x: -979.85, y: -712}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318368540
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 3
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1007,7 +1007,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Proceed
+  m_text: PLAY
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 3
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1229,13 +1229,13 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 670700742}
-  - {fileID: 1804404558}
   - {fileID: 318368539}
-  - {fileID: 108663371}
-  - {fileID: 1910124448}
-  - {fileID: 653181267}
   - {fileID: 2098974698}
+  - {fileID: 670700742}
+  - {fileID: 1910124448}
+  - {fileID: 1804404558}
+  - {fileID: 653181267}
+  - {fileID: 108663371}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1310,7 +1310,7 @@ GameObject:
   - component: {fileID: 653181268}
   - component: {fileID: 653181270}
   m_Layer: 5
-  m_Name: p2Name IP
+  m_Name: P2Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1334,7 +1334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -372.97, y: -131}
+  m_AnchoredPosition: {x: 414.97, y: 17}
   m_SizeDelta: {x: 360.067, y: 53.4897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653181268
@@ -1485,7 +1485,7 @@ GameObject:
   - component: {fileID: 670700744}
   - component: {fileID: 670700743}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Player 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1504,11 +1504,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 618868371}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -378, y: 236.67}
+  m_AnchoredPosition: {x: -384.97, y: 81.49}
   m_SizeDelta: {x: -1016, y: -712}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &670700743
@@ -1531,7 +1531,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Player 1 Name
+  m_text: PLAYER 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1565,7 +1565,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1773,6 +1773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1977,7 +1978,7 @@ GameObject:
   - component: {fileID: 1405060336}
   - component: {fileID: 1405060335}
   m_Layer: 0
-  m_Name: vHandler
+  m_Name: VarHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1998,6 +1999,7 @@ MonoBehaviour:
   playerName1: 
   playerName2: 
   playerHealth: 0
+  winner: 0
 --- !u!4 &1405060336
 Transform:
   m_ObjectHideFlags: 0
@@ -2086,7 +2088,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 3
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2181,7 +2183,7 @@ GameObject:
   - component: {fileID: 1804404560}
   - component: {fileID: 1804404559}
   m_Layer: 5
-  m_Name: p2 Caption
+  m_Name: Player 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2200,11 +2202,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 618868371}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -378, y: -52.331}
+  m_AnchoredPosition: {x: 414.96997, y: 81.48999}
   m_SizeDelta: {x: -1016, y: -712}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1804404559
@@ -2227,7 +2229,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Player 2 Name
+  m_text: PLAYER 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2261,7 +2263,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2317,7 +2319,7 @@ GameObject:
   - component: {fileID: 1910124449}
   - component: {fileID: 1910124451}
   m_Layer: 5
-  m_Name: p1Name IP
+  m_Name: P1Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2337,11 +2339,11 @@ RectTransform:
   m_Children:
   - {fileID: 560897714}
   m_Father: {fileID: 618868371}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -372.96652, y: 164.25513}
+  m_AnchoredPosition: {x: -384.97, y: 17}
   m_SizeDelta: {x: 360.067, y: 53.4897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1910124449
@@ -2546,7 +2548,7 @@ GameObject:
   - component: {fileID: 2098974699}
   - component: {fileID: 2098974697}
   m_Layer: 5
-  m_Name: pHealth IP
+  m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2664,11 +2666,11 @@ RectTransform:
   m_Children:
   - {fileID: 2035242388}
   m_Father: {fileID: 618868371}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 419.96, y: 164.26}
+  m_AnchoredPosition: {x: -0.000030517, y: 211}
   m_SizeDelta: {x: 360.067, y: 53.4897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098974699
