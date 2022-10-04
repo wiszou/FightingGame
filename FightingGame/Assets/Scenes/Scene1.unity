@@ -1861,7 +1861,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -2816,13 +2815,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 103bf025d40674c43b007f37dac68b01, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.808
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 44
+  Priority: 79
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 665.5222
