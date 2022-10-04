@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 3701698}
   - component: {fileID: 3701697}
   m_Layer: 5
-  m_Name: p2HighPunch
+  m_Name: P2HighPunch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 111184721}
   - component: {fileID: 111184720}
   m_Layer: 5
-  m_Name: p2HighKick
+  m_Name: P2HighKick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 374922373}
   - component: {fileID: 374922372}
   m_Layer: 5
-  m_Name: p1LowKick
+  m_Name: P1LowKick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 420579068}
   - component: {fileID: 420579067}
   m_Layer: 5
-  m_Name: p2LowKick
+  m_Name: P2LowKick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1266,7 +1266,7 @@ GameObject:
   - component: {fileID: 719733086}
   - component: {fileID: 719733085}
   m_Layer: 5
-  m_Name: p2LowPunch
+  m_Name: P2LowPunch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1399,7 +1399,7 @@ GameObject:
   - component: {fileID: 723732019}
   - component: {fileID: 723732018}
   m_Layer: 5
-  m_Name: p2HP
+  m_Name: P2HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1535,7 +1535,7 @@ GameObject:
   - component: {fileID: 723899491}
   - component: {fileID: 723899490}
   m_Layer: 5
-  m_Name: p1LowPunch
+  m_Name: P1LowPunch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1870,7 +1870,7 @@ GameObject:
   - component: {fileID: 753040999}
   - component: {fileID: 753040998}
   m_Layer: 5
-  m_Name: p1Name
+  m_Name: P1Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2006,7 +2006,7 @@ GameObject:
   - component: {fileID: 759692591}
   - component: {fileID: 759692590}
   m_Layer: 5
-  m_Name: p1HighPunch
+  m_Name: P1HighPunch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2168,10 +2168,10 @@ MonoBehaviour:
   attackSr: {fileID: 728956468}
   rawAttack: {fileID: 867305083}
   idle: {fileID: 32900000, guid: abace0cca716bcf498c0acdb2da39b21, type: 3}
-  p1LowKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
+  p1LowKick: {fileID: 32900000, guid: 715a7b126266db34a8e1be483dbcc6f7, type: 3}
   p1HighKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
   p1LowPunch: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p1HighPunch: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
+  p1HighPunch: {fileID: 32900000, guid: 3df3be42f88d51a45b186415afe9c993, type: 3}
   p1Special: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
   p2LowKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
   p2HighKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
@@ -2181,7 +2181,7 @@ MonoBehaviour:
   mp1LowKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
   mp1HighKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
   mp1LowPunch: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp1HighPunch: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
+  mp1HighPunch: {fileID: 32900000, guid: 9e738aaa1ff430e42b93fff469a3a47c, type: 3}
   mp1Special: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
   mp2LowKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
   mp2HighKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
@@ -2356,7 +2356,7 @@ GameObject:
   - component: {fileID: 970733381}
   - component: {fileID: 970733380}
   m_Layer: 5
-  m_Name: p2Special
+  m_Name: P2Special
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2843,7 +2843,7 @@ GameObject:
   - component: {fileID: 1251105517}
   - component: {fileID: 1251105516}
   m_Layer: 5
-  m_Name: p2Name
+  m_Name: P2Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2978,7 +2978,7 @@ GameObject:
   - component: {fileID: 1263926512}
   - component: {fileID: 1263926511}
   m_Layer: 5
-  m_Name: p1HP
+  m_Name: P1HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3249,7 +3249,7 @@ GameObject:
   - component: {fileID: 1712620532}
   - component: {fileID: 1712620531}
   m_Layer: 5
-  m_Name: p1HighKick
+  m_Name: P1HighKick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3383,7 +3383,7 @@ GameObject:
   - component: {fileID: 1750294512}
   - component: {fileID: 1750294511}
   m_Layer: 5
-  m_Name: p1Special
+  m_Name: P1Special
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3669,6 +3669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
