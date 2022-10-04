@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 664ec163620dc6a4e9728a3d9911655b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - P1Health: {fileID: 5857072200820637858, guid: 1aef218c0984273408d293ba68fce21e, type: 3}
+  - P2Health: {fileID: 5857072200820637858, guid: 1aef218c0984273408d293ba68fce21e, type: 3}
+  - VideoPlayerGO: {fileID: 5857072200820637858, guid: 1aef218c0984273408d293ba68fce21e, type: 3}
+  - VD1: {fileID: 32900000, guid: c68f52084437b9649a04afbada690fed, type: 3}
+  - VD2: {fileID: 32900000, guid: bcba7649ae2a3ce43afb63e975ecadf8, type: 3}
+  - VD3: {fileID: 32900000, guid: da15e541826e0ac4db4f741e69a525fb, type: 3}
+  - VD4: {fileID: 32900000, guid: 92ba369dafe699b4b9610b7920222920, type: 3}
+  - VD5: {fileID: 32900000, guid: 601e99f80976a574da95dadd01f02d9c, type: 3}
+  - VD6: {fileID: 32900000, guid: 630895517358cb948a7f5322ba66cf00, type: 3}
+  - VD7: {fileID: 32900000, guid: 1daf5e223bff4e2418a6a238b43126c1, type: 3}
+  - VD8: {fileID: 32900000, guid: bd6c405873b55554eb289afa72d162c7, type: 3}
+  - VD9: {fileID: 32900000, guid: 512cf34cc9f64cc419c698ea34e9c244, type: 3}
+  - VD10: {fileID: 32900000, guid: 49a3c2fa8da0aba4bbc52485514960cc, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
