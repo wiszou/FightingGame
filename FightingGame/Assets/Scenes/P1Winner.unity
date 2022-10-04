@@ -599,7 +599,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1075710748}
         m_TargetAssemblyTypeName: EndButton, Assembly-CSharp
-        m_MethodName: pressMainmenu
+        m_MethodName: pressRetry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

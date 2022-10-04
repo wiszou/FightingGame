@@ -18,13 +18,13 @@ public class EndButton : MonoBehaviour
     }
 
 
-    public void pressMainmenu(){
-        StartCoroutine(mainMenudelay());
+    public void pressRetry(){
+        StartCoroutine(Retrydelay());
         Debug.Log("Start");
     }
 
-    IEnumerator mainMenudelay(){
-        Debug.Log("retrying the game");
+    IEnumerator Retrydelay(){
+        Debug.Log("Retrying the game");
         yield return new WaitForSeconds(.1f);
         Debug.Log("New Game Started");
         SceneManager.LoadScene(1);
