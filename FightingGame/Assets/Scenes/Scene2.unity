@@ -1620,27 +1620,27 @@ MonoBehaviour:
   idleAnimSr: {fileID: 934715089}
   attackSr: {fileID: 728956468}
   rawAttack: {fileID: 867305083}
-  idle: {fileID: 32900000, guid: abace0cca716bcf498c0acdb2da39b21, type: 3}
+  idle: {fileID: 32900000, guid: a0b3f16ce1cb33549a51462daec3322a, type: 3}
   p1LowKick: {fileID: 32900000, guid: 715a7b126266db34a8e1be483dbcc6f7, type: 3}
   p1HighKick: {fileID: 32900000, guid: db5d97f7be2f3d04f8b5956db175a18a, type: 3}
   p1LowPunch: {fileID: 32900000, guid: a19106a778765a34c96cb0fc7854a1d6, type: 3}
   p1HighPunch: {fileID: 32900000, guid: 3df3be42f88d51a45b186415afe9c993, type: 3}
   p1Special: {fileID: 32900000, guid: ad20f8687096a3143bf83accbb83f101, type: 3}
-  p2LowKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p2HighKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p2LowPunch: {fileID: 32900000, guid: 64726a704618b3b4794fb2b53abac011, type: 3}
-  p2HighPunch: {fileID: 32900000, guid: 0bdefd5364054e34da6b92b7b17a465e, type: 3}
-  p2Special: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
+  p2LowKick: {fileID: 32900000, guid: 5cb17ae7f7704d54f843ccfe214edd9c, type: 3}
+  p2HighKick: {fileID: 32900000, guid: 9f029512b6618bd4b9885634b301ddd4, type: 3}
+  p2LowPunch: {fileID: 32900000, guid: 6861545afc64846469a1c53f927dce9c, type: 3}
+  p2HighPunch: {fileID: 32900000, guid: e9fb6a5f432ea6e429074620aab3cd27, type: 3}
+  p2Special: {fileID: 32900000, guid: f6789999e81064147bbc17b349f79c66, type: 3}
   mp1LowKick: {fileID: 32900000, guid: f67f8d60823698c4495dfbec132c1911, type: 3}
   mp1HighKick: {fileID: 32900000, guid: a024e94dce082f747b98577ef5d48a00, type: 3}
   mp1LowPunch: {fileID: 32900000, guid: f90d08f862e951f41994e48328ca90f8, type: 3}
   mp1HighPunch: {fileID: 32900000, guid: 9e738aaa1ff430e42b93fff469a3a47c, type: 3}
-  mp1Special: {fileID: 32900000, guid: ad20f8687096a3143bf83accbb83f101, type: 3}
-  mp2LowKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp2HighKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp2LowPunch: {fileID: 32900000, guid: 99c9b0fda589cb6449da9bdaeb851ecf, type: 3}
+  mp1Special: {fileID: 32900000, guid: a772409b296c5f44f86aa0dfe7a79fad, type: 3}
+  mp2LowKick: {fileID: 32900000, guid: 16ec7a22d0317bc4d91921e256cd4bc4, type: 3}
+  mp2HighKick: {fileID: 32900000, guid: e45047acbd2e1e447955fea8969dd128, type: 3}
+  mp2LowPunch: {fileID: 32900000, guid: e076ebdab3c4b4b4e82a214731fc3b24, type: 3}
   mp2HighPunch: {fileID: 32900000, guid: 19fefac53b1a24a459c128290a58ec8b, type: 3}
-  mp2Special: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
+  mp2Special: {fileID: 32900000, guid: 3d73264baaf672342a10a6e87cd4a811, type: 3}
 --- !u!4 &827996546
 Transform:
   m_ObjectHideFlags: 0

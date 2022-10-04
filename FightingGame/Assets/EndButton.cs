@@ -27,6 +27,6 @@ public class EndButton : MonoBehaviour
         Debug.Log("Retrying the game");
         yield return new WaitForSeconds(.1f);
         Debug.Log("New Game Started");
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }
