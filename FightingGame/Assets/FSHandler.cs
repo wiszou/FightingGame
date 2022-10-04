@@ -98,7 +98,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         rawAttack.SetActive(true);
         StartCoroutine(delayProcess(1,75,1));
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
 
     public void playerOneHighPunch()
@@ -106,7 +106,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p1HighPunch;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(1,55,2));
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
 
     public void playerOneLowKick()
@@ -114,7 +114,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p1LowKick;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(1,65,3));
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
 
     public void playerOneHighKick()
@@ -122,7 +122,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p1HighKick;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(1,45,4));
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
 
     public void playerOneSpecial()
@@ -131,7 +131,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(1,90,5));
         specialOne.interactable = false;
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
     
     // PLAYER TWO BUTTON ATTACKS
@@ -141,7 +141,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p2LowPunch;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,75,1));
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
 
     public void playerTwoHighPunch()
@@ -149,7 +149,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p2HighPunch;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,55,2));
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
 
     public void playerTwoLowKick()
@@ -157,7 +157,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p2LowKick;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,65,3));
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
 
     public void playerTwoHighKick()
@@ -165,7 +165,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().clip = p2HighKick;
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,45,4));
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
 
     public void playerTwoSpecial()
@@ -174,7 +174,7 @@ public class FSHandler : MonoBehaviour
         attackSr.gameObject.GetComponent<VideoPlayer>().Play();
         StartCoroutine(delayProcess(2,90,5));
         specialTwo.interactable = false;
-        Debug.Log("Attack Success!");
+        Debug.Log("Attack Initiated");
     }
 
     public IEnumerator delayProcess(int playerNumber, int accuracy,int attackNumber)
@@ -236,7 +236,7 @@ public class FSHandler : MonoBehaviour
                 switch (attackNumber)
                 {
                     case 1:
-                    Debug.Log("Attack Missed!");
+                    Debug.Log("Attack Success!");
                     attackSr.gameObject.GetComponent<VideoPlayer>().clip = mp1LowPunch;
                     attackSr.gameObject.GetComponent<VideoPlayer>().Play();
                     rawAttack.SetActive(true);
