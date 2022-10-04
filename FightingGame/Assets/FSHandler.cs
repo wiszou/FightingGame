@@ -382,14 +382,14 @@ public class FSHandler : MonoBehaviour
         if (playerOneHP <= 0)
         {
             VarHandler.vPasser.winner = 2;
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(.1f);
             SceneManager.LoadScene(2);
         }
 
         if (playerTwoHP <= 0)
         {
             VarHandler.vPasser.winner = 1;
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(.1f);
             SceneManager.LoadScene(2);
         }
 
