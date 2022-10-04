@@ -1622,20 +1622,20 @@ MonoBehaviour:
   rawAttack: {fileID: 867305083}
   idle: {fileID: 32900000, guid: abace0cca716bcf498c0acdb2da39b21, type: 3}
   p1LowKick: {fileID: 32900000, guid: 715a7b126266db34a8e1be483dbcc6f7, type: 3}
-  p1HighKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p1LowPunch: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
+  p1HighKick: {fileID: 32900000, guid: db5d97f7be2f3d04f8b5956db175a18a, type: 3}
+  p1LowPunch: {fileID: 32900000, guid: 42c9abfffa8dbd84b8a70a1eddf8b040, type: 3}
   p1HighPunch: {fileID: 32900000, guid: 3df3be42f88d51a45b186415afe9c993, type: 3}
-  p1Special: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
+  p1Special: {fileID: 32900000, guid: ad20f8687096a3143bf83accbb83f101, type: 3}
   p2LowKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
   p2HighKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
   p2LowPunch: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
   p2HighPunch: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
   p2Special: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  mp1LowKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp1HighKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp1LowPunch: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
+  mp1LowKick: {fileID: 32900000, guid: f67f8d60823698c4495dfbec132c1911, type: 3}
+  mp1HighKick: {fileID: 32900000, guid: a024e94dce082f747b98577ef5d48a00, type: 3}
+  mp1LowPunch: {fileID: 32900000, guid: f90d08f862e951f41994e48328ca90f8, type: 3}
   mp1HighPunch: {fileID: 32900000, guid: 9e738aaa1ff430e42b93fff469a3a47c, type: 3}
-  mp1Special: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
+  mp1Special: {fileID: 32900000, guid: ad20f8687096a3143bf83accbb83f101, type: 3}
   mp2LowKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
   mp2HighKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
   mp2LowPunch: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
