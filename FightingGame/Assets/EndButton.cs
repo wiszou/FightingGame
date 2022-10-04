@@ -24,9 +24,9 @@ public class EndButton : MonoBehaviour
     }
 
     IEnumerator mainMenudelay(){
-        Debug.Log("Returning to Main Menu");
+        Debug.Log("retrying the game");
         yield return new WaitForSeconds(.1f);
-        Debug.Log("Returned to Main Menu");
-        SceneManager.LoadScene(0);
+        Debug.Log("New Game Started");
+        SceneManager.LoadScene(1);
     }
 }
