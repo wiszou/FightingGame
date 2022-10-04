@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class winnerHandler : MonoBehaviour
+public class WHandler : MonoBehaviour
 {
     public TextMeshProUGUI winnerPlayer;
     public int winnerNum;
